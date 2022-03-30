@@ -21,7 +21,7 @@ namespace CMP1903M_Assessment_1_Base_Code
 
         public void analyseText(string input)
         {
-            //create 'LongWords' file
+            //creating longWordsFile file for text import 
             string longWordsFile = ("longWordsFile.txt");
             File.WriteAllText(longWordsFile, string.Empty);//empty file to initiallize
             File.WriteAllText(longWordsFile, "List of words with a length greater than 7:");

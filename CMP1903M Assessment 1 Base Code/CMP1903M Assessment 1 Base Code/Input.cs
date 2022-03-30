@@ -54,9 +54,10 @@ namespace CMP1903M_Assessment_1_Base_Code
         //Gets text input from a .txt file
         public void fileTextInput(string fileName)
         {
-
+            //specifying file location input 
             Console.WriteLine("Specify file location below: " + " e.g. " + @"D:\User\Modules\OOP\Assignment1\Examplefile.txt");
             fileName = Console.ReadLine();
+            //input validation for file location
             Console.WriteLine($"You entered {fileName}, Is This Correct? (y/n)");
             String confirm = Console.ReadLine();
             if(confirm == "y")
